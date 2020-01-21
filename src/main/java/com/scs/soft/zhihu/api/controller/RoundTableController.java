@@ -19,11 +19,19 @@ public class RoundTableController {
     @Resource
     private RoundTableService roundTableService;
 
+    /**
+     * 获取所有的圆桌内容
+     * @return
+     */
     @GetMapping(value = "/all")
     public Result getAllRoundTable(){
         return Result.success(roundTableService.getAllRoundTable());
     }
 
+    /**
+     * 获取前四个圆桌内容
+     * @return
+     */
     @GetMapping
     public Result getRoundTable(){
         return Result.success(roundTableService.getRoundTable());

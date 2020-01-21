@@ -1,7 +1,6 @@
 package com.scs.soft.zhihu.api.service;
 
 import com.scs.soft.zhihu.api.entity.RoundTable;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
